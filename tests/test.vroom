@@ -1,5 +1,5 @@
   :set nu
-  :source autoload/main.vim
+  :source plugin/main.vim
   > ihi PYTHTN_COMMENT cterm=none ctermfg=12 ctermbg=2<ESC>
   :call Cterm2Gui()<ESC>
   hi PYTHTN_COMMENT cterm=none ctermfg=12 ctermbg=2 guifg=#0000ff guibg=#008000
