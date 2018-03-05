@@ -133,7 +133,8 @@ def xterm2Rgb(num):
          253: '#dadada', 254: '#e4e4e4', 255: '#eeeeee' }
 
     if "none" == num or \
+       "NONE" == num or \
         not num:
-        return "none"
+        return "NONE"
 
     return xtermColor[int (num)]
