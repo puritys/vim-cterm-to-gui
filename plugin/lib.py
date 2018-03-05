@@ -4,9 +4,9 @@ import re
 
 def cterm2Gui(line):
     base=""
-    cterm="none"
-    ctermfg="none"
-    ctermbg="none"
+    cterm="NONE"
+    ctermfg="NONE"
+    ctermbg="NONE"
 
     result = line
 
